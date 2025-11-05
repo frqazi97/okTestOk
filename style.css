@@ -1,0 +1,56 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 10px;
+    background-color: black;
+}
+.heading{
+    text-align: center;
+    font-size: x-large;
+    font-family: "Michroma", sans-serif;
+    background-color: black;
+    color: greenyellow;
+}
+.GeorgeFloyd{
+    display: inline-block;
+    font-size: 0.75em;
+    text-align: justify;
+    align-content: center;
+    padding: 10px;
+    color: greenyellow;
+    margin-bottom: -300px;
+}
+img{
+    float: left;
+    width: 300px;
+    height: 300px;
+    padding: 15px
+}
+.CharlieKlank{
+   display: inline-block;
+    height: 100vh;
+    font-size: 0.75em;
+    text-align: justify;
+    align-content: center;
+    color: greenyellow;
+    margin-bottom: -300px;
+}
+h2{
+    color: greenyellow;
+    font-size: 1em;
+    font-family: "Michroma",sans-serif;
+}
+h3{
+    color: greenyellow;
+    font-size: 1em;
+    font-family: "Michroma",sans-serif;
+}
+*{
+    background-color: black;
+}
+.Donate{
+    display: flex;
+    align-content:normal;
+
+}
